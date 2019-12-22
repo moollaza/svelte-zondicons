@@ -1,0 +1,29 @@
+{
+    "name": "svelte-zondicons",
+    "version": "0.0.1",
+    "description": "Svelte component for Zondicons by Steve Schoger",
+    "main": "src/index.js",
+    "repository": "https://github.com/moollaza/svelte-zondicons",
+    "author": "moollaza <moollaza@fastmail.fm>",
+    "license": "MIT",
+    "keywords": [
+        "svelte",
+        "zondicons",
+        "svg",
+        "inline",
+        "icons",
+        "design"
+    ],
+    "scripts": {
+        "build": "node ./bin/build",
+        "prepublishOnly": "npm run build"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "globby": "^10.0.1",
+        "pascalcase": "^1.0.0"
+    },
+    "peerDependencies": {
+        "svelte": "^3.0.0"
+    }
+}
