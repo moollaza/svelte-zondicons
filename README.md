@@ -39,3 +39,7 @@ npm install --save-dev svelte-zondicons
 - This package was inspired by:
   - (svelte-feather-icons)[https://github.com/dylanblokhuis/svelte-feather-icons]
   - (svelte-simple-icons)[https://github.com/beyonk-adventures/svelte-simple-icons]
+
+
+## Contributing
+Pull requests are welcome :)
