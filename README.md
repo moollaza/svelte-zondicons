@@ -37,8 +37,8 @@ npm install --save-dev svelte-zondicons
 ## Credit
 - [Zondicons](https://www.zondicons.com/) is a free SVG icon set created by [Steve Schoger](https://twitter.com/steveschoger).
 - This package was inspired by:
-  - (svelte-feather-icons)[https://github.com/dylanblokhuis/svelte-feather-icons]
-  - (svelte-simple-icons)[https://github.com/beyonk-adventures/svelte-simple-icons]
+  - [svelte-feather-icons](https://github.com/dylanblokhuis/svelte-feather-icons)
+  - [svelte-simple-icons](https://github.com/beyonk-adventures/svelte-simple-icons)
 
 
 ## Contributing
