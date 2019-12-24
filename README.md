@@ -2,6 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/svelte-zondicons.svg?style=flat-square)](https://www.npmjs.com/package/svelte-zondicons)
 
+Provides customizable components for each icon in the Zondicons set. Ideal for use with [Tailwind](https://tailwindcss.com/).
 
 ### Installation
 
