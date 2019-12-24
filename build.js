@@ -10,7 +10,7 @@ const getComponentName = name => {
     return pascalCase(name)
 };
 
-const rootDir = path.join(__dirname, "..");
+const rootDir = path.join(__dirname);
 const svgDir = path.join(rootDir, "./svg");
 
 const iconsDir = path.join(rootDir, "./src/icons");
