@@ -1,7 +1,7 @@
 {
     "name": "svelte-zondicons",
     "description": "Svelte component for Zondicons by Steve Schoger",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "moollaza <moollaza@fastmail.fm>",
     "repository": {
         "url": "https://github.com/moollaza/svelte-zondicons",
