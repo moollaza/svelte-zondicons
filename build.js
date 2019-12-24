@@ -36,8 +36,7 @@ if (!fs.existsSync(iconsDir)) {
             const str = icons[name];
             const componentName = getComponentName(name);
             indexContent += `export { default as ${componentName}Icon } from './icons/${componentName}.svelte';\n`;
-            const componentContent = `<svelte:options tag="${name}-icon"/>\n
-<script>
+            const componentContent = `<script>
   export let color = 'currentColor';
   export let size = 24;
   let className = '';
@@ -49,8 +48,7 @@ if (!fs.existsSync(iconsDir)) {
   class={className}
   fill={color}
   width="{size}"
-  height="{size}"
-  >
+  height="{size}">
   ${str}
 </svg>`;
             await fsp.writeFile(path.join(iconsDir, componentName + ".svelte"), componentContent);
