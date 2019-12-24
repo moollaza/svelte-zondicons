@@ -23,10 +23,6 @@ npm install --save-dev svelte-zondicons
 
 <AirplaneIcon />
 <ArrowRightIcon class="h-8 w-8 text-gray-800" />
-
-<!-- Or using as custom elements -->
-<airplane-icon />
-<arrow-left-icon />
 ```
 
 ### Accepted Props
