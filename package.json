@@ -1,29 +1,43 @@
 {
-  "name": "svelte-zondicons",
-  "version": "1.0.0",
-  "description": "Svelte component for Zondicons by Steve Schoger",
-  "main": "src/index.js",
-  "repository": "https://github.com/moollaza/svelte-zondicons",
-  "author": "moollaza <moollaza@fastmail.fm>",
-  "license": "MIT",
-  "keywords": [
-    "svelte",
-    "zondicons",
-    "svg",
-    "inline",
-    "icons",
-    "design"
-  ],
-  "scripts": {
-    "build": "node ./bin/build",
-    "prepublishOnly": "npm run build"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "globby": "^10.0.1",
-    "pascalcase": "^1.0.0"
-  },
-  "peerDependencies": {
-    "svelte": "^3.0.0"
-  }
+    "name": "svelte-zondicons",
+    "description": "Svelte component for Zondicons by Steve Schoger",
+    "version": "1.0.0",
+    "author": "moollaza <moollaza@fastmail.fm>",
+    "repository": {
+        "url": "https://github.com/moollaza/svelte-zondicons",
+        "type": "git"
+    },
+    "svelte": "src/index.js",
+    "module": "index.mjs",
+    "main": "index.js",
+    "files": [
+        "src",
+        "index.mjs",
+        "index.js"
+    ],
+    "license": "MIT",
+    "scripts": {
+        "build:icons": "node build",
+        "build:dist": "rollup -c",
+        "build": "npm run build:icons && npm run build:dist",
+        "prepublishOnly": "npm run build"
+    },
+    "devDependencies": {
+        "globby": "^10.0.1",
+        "pascalcase": "^1.0.0",
+        "path": "^0.12.7",
+        "rollup": "latest",
+        "rollup-plugin-node-resolve": "^5.2.0",
+        "rollup-plugin-svelte": "^5.1.1",
+        "rollup-plugin-terser": "^5.1.3",
+        "svelte": "latest"
+    },
+    "keywords": [
+        "svelte",
+        "zondicons",
+        "svg",
+        "inline",
+        "icons",
+        "design"
+    ]
 }
